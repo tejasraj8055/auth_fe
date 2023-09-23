@@ -1,0 +1,11 @@
+.loading-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px; /* Adjust the height as needed */
+    background-color: #007bff; /* Loading bar color */
+    z-index: 1000; /* Ensure it's on top of other elements */
+    transition: width 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  
